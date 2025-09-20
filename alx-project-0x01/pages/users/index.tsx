@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "@/components/layout/Header";
 
 const UsersPage: React.FC = () => {
   const users = ["Alice", "Bob", "Charlie"];
