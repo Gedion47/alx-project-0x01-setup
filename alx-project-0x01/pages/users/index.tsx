@@ -2,7 +2,7 @@ import React from "react";
 import Header from "@/components/layout/Header";
 import UserCard from "@/components/common/UserCard";
 
-const UsersPage: React.FC = () => {
+const Users: React.FC = () => {
   const users = ["Alice", "Bob", "Charlie"];
 
   return (
@@ -28,4 +28,4 @@ export async function getStaticProps() {
     },
   };
 }
-export default UsersPage;
+export default Users;
